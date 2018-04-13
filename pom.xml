@@ -9,6 +9,7 @@
     <modules>
         <module>simple</module>
         <module>hystrix-dashboard</module>
+        <module>simple-retry</module>
     </modules>
     <packaging>pom</packaging>
 

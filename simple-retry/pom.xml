@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>circuit-breaker-example</artifactId>
+        <groupId>br.com.claudiobs07</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>simple-retry</artifactId>
+
+    <name>simple-retry</name>
+    <description>Demo project for Spring Boot with Simple Retry</description>
+
+    <properties>
+        <spring-retry.version>1.2.0.RC1</spring-retry.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
