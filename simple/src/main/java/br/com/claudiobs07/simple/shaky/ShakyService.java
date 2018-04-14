@@ -1,4 +1,4 @@
-package br.com.claudiobs07.circuitbreakerexample.simple.shaky;
+package br.com.claudiobs07.simple.shaky;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.stereotype.Service;

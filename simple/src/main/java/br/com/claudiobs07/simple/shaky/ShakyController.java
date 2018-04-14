@@ -1,4 +1,4 @@
-package br.com.claudiobs07.circuitbreakerexample.simple.shaky;
+package br.com.claudiobs07.simple.shaky;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

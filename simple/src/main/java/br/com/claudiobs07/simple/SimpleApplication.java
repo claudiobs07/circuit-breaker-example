@@ -1,4 +1,4 @@
-package br.com.claudiobs07.circuitbreakerexample.simple;
+package br.com.claudiobs07.simple;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
