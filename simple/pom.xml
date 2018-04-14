@@ -11,18 +11,10 @@
 
     <artifactId>simple</artifactId>
 
-    <properties>
-        <spring-retry.version>1.2.0.RC1</spring-retry.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.retry</groupId>
-            <artifactId>spring-retry</artifactId>
         </dependency>
     </dependencies>
 
