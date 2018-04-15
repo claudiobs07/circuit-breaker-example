@@ -3,6 +3,7 @@ package br.com.claudiobs07.simpleretry.shaky;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 import org.springframework.retry.annotation.Backoff;
+import org.springframework.retry.annotation.CircuitBreaker;
 import org.springframework.retry.annotation.Recover;
 import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
